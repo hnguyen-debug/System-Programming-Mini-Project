@@ -7,23 +7,22 @@ Overview
 
 This C program simulates a round-robin CPU scheduling with I/O events. Each process has:
 
-Name
+- Name
+- Total CPU time required
 
-Total CPU time required
-
-Optional I/O events, defined as pairs of turn number and runtime before the block
+- I/O events, defined as pairs of turn number and runtime before the block
 
 The scheduler runs each process in turns, handling I/O blocks and finishing processes when their total CPU time is reached.
 
 Features
 
-Handles multiple processes with dynamic I/O events
+- Handles multiple processes with dynamic I/O events
 
-Fixed time quantum of 10 units
+- Fixed time quantum of 10 units
 
-Tracks the number of CPU turns each process has had
+- Tracks the number of CPU turns each process has had
 
-Prints the completion time for each process
+- Prints the completion time for each process
 
 Input Format
 
